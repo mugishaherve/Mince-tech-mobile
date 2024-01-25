@@ -1,0 +1,51 @@
+name: mince_tech
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  flutter_riverpod: ^2.4.9
+  connectivity_plus: ^5.0.2
+  shared_preferences: ^2.2.2
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  equatable: ^2.0.5
+  google_sign_in: ^5.0.7
+  flutter_login_facebook: ^1.6.2
+  pin_code_fields: ^8.0.1
+  sms_autofill: ^2.3.0
+  intl: ^0.18.0
+  dio: ^5.4.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratRomanExtraBold.ttf
+          weight: 800
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoMedium.ttf
+          weight: 500
